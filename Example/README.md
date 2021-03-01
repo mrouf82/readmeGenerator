@@ -1,8 +1,8 @@
 
-  ## tehgesrgtsre 
+  ## Readme generator 
     
   ## Description
-  arg
+  This application helps users create a Readme with efficiancy and ease. 
   
   ## Table of Contents
   [Installation](#installation)
@@ -15,25 +15,25 @@
   
   To install the necessary dependencies, please run this code.
   ```
-  erag
+  Install through the command line. 
   ```
   
   ## Usage
   ```
-  arfgra
+  After installation, you will be able to instructed regarding the next steps.
   ```
   ## License
   
-  The license of this project is Apache
+  The license of this project is MIT
   ## License  
-   ![badge](https://img.shields.io/badge/license-Apache-blueviolet)
- License Link :  [Apache](https://opensource.org/licenses/Apache-2.0)
+   ![badge](https://img.shields.io/badge/license-MIT-blueviolet)
+ License Link :  [MIT](https://opensource.org/licenses/MIT)
   
 
   ## Contribution 
-  awref
+  This project can be edited by anyone
   ## Questions
-   Github: [awefaw](https://github.com/awefaw)
+   Github: [mrouf82](https://github.com/mrouf82)
 
-  If you have any questions, please contact me at: awerfar
+  If you have any questions, please contact me at: mrouf82@gmail.com
   
