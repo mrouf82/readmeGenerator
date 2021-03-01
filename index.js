@@ -37,10 +37,20 @@ const questions = () =>
   ]);
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function createReadme(fileName, data) {}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() () => {
+  questions().then((answers) => {
+    try {
+      const md = createReadme(answers);
+      fs.writeFileSync('./Example/README.md', md);
+      console.log('Successfully created README');
+    } catch (error) {
+      console.log(error);
+    }
+  });
+};
 
 // Function call to initialize app
 init();
