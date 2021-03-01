@@ -8,33 +8,57 @@ const questions = () =>
   inquirer.prompt([
     {
       type: "input",
-      name: "name",
-      message: "What is your name?",
+      name: "title",
+      message: "What is your project name?",
     },
     {
       type: "input",
-      name: "location",
-      message: "Where are you from?",
+      name: "description",
+      message: "Provide a description of your job",
     },
     {
       type: "input",
-      name: "hobby",
-      message: "What is your favorite hobby?",
+      name: "instruction",
+      message: "Provide instructions to install your project",
     },
     {
       type: "input",
-      name: "food",
-      message: "What is your favorite food?",
+      name: "usage",
+      message: "Please provide a description of the usage of your project",
     },
     {
       type: "input",
-      name: "github",
-      message: "Enter your GitHub Username",
+      name: "dependencies",
+      message: "Please provide instruction to install dependencies.",
+    },
+    {
+      type: "list",
+      name: "license",
+      message: "What licenses are you using?",
+      choices: [
+        "Apache",
+        "IBM",
+        "GNU General Public",
+        "Eclipse Public",
+        "MIT",
+        "Mozilla Public",
+        "None",
+      ],
     },
     {
       type: "input",
-      name: "linkedin",
-      message: "Enter your LinkedIn URL.",
+      name: "contribution",
+      message: "Please provide contribution guidelines for this provider",
+    },
+    {
+      type: "input",
+      name: "githubUsername",
+      message: "Please provide your github username",
+    },
+    {
+      type: "input",
+      name: "email",
+      message: "Please provide your email.",
     },
   ]);
 
